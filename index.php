@@ -1,5 +1,5 @@
 <?php
-$url = 'http://www.jamaicaobserver.com/rss/entertainment/'; // Insert XML source
+$url = 'http://www.jamaicaobserver.com/rss/business/'; // Insert XML source
 $xml = simplexml_load_file($url) or die("Error connecting to XML"); // Pass xml source into simpleXML plugin
 
 
